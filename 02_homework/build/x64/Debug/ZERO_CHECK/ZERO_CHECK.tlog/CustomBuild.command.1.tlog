@@ -1,0 +1,10 @@
+^D:\BRSLV\OTUS_CPP_BASICS\HOMEWORKS\02\02_HOMEWORK\BUILD\CMAKEFILES\E071BDCDDC3B6FE6AF365E97C66DE74E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BRSLV/OTUS_cpp_basics/Homeworks/02/02_homework -BD:/BRSLV/OTUS_cpp_basics/Homeworks/02/02_homework/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/BRSLV/OTUS_cpp_basics/Homeworks/02/02_homework/build/01.hello_world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

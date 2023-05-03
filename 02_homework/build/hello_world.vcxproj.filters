@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\hello_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\todo_move_me_out.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\todo_move_me_out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BRSLV\OTUS_cpp_basics\Homeworks\02\02_homework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6D12BB26-609F-3A53-AA87-B017F666498E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25C3ED63-72BE-3CAD-B22E-382F881353B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
